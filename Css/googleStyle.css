@@ -17,13 +17,43 @@ li{
 }
 
 .superior{
-    display:flex;
+    display:grid;
     margin:0;
     padding:10px 0;
+    grid-template-columns: auto 1fr auto;
 }
 
 .mainLogo{
-
+    justify-self: center;
 }
 .userImage{
+    padding-right: 15px;
+}
+
+.mobileMenu{
+    padding-left: 15px;
+}
+
+.searchBar{
+    text-align: center;
+    background-color: red;
+    height: auto !important;
+}
+
+.containersearchbar{
+    background-color: saddlebrown;
+    width: 95%;
+    margin-top: 40px;
+    text-align:center;
+    border: 1px solid #dadce0;
+    border-radius: 20px;
+    display:flex;
+    justify-content: flex-start;
+    height:38px;
+}
+
+.containersearchbar > svg {
+    width:25px;
+    opacity: .5;
+    margin-left: 10px;
 }
