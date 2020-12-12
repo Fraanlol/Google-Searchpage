@@ -1,0 +1,29 @@
+body, html{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+    height:100%;
+    overflow: hidden;
+}
+
+article{
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+li{
+    list-style-type: none;
+}
+
+.superior{
+    display:flex;
+    margin:0;
+    padding:10px 0;
+}
+
+.mainLogo{
+
+}
+.userImage{
+}
