@@ -19,6 +19,10 @@ a{
     color: #70757a;
 }
 
+.mbdsp{
+    display:none;
+}
+
 .superior{
     display:grid;
     margin:0;
